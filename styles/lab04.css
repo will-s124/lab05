@@ -11,29 +11,10 @@ last modified: [26/03/2025]
 description: [lab04.html]
 
 */
-dl {
-    border: 3px double #cccccc;
-    padding: 0.5em;
-  }
-  dt {
-    clear: left;
-	float: left;
-    width: 40%;
-	text-align: right;
-    font-weight: bold;
-    color: green;
-  }
-  dt::after {
-    content: " :"; 
-  }
-
-  dd {
-    width: 55%;
-	margin-left: 42%;
-  }
-h1 {
-    color: purple;
-    
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
 }
 * { font-family: calibri, sans-serif; } 
 h2 {
