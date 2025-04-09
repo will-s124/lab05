@@ -34,8 +34,7 @@ header {
 }
 
 footer {
-  border-color:lime;
-  border-width: 4px;
+  border-top:4px double lime;
   clear:both;
 }
 
@@ -45,16 +44,17 @@ footer {
 
 #tables {
   float:right;
+  margin:auto;
 }
 figure {
   border: 2px solid #ccc;
 }
 
-#hyperlinks {clear:both;}
-#hyperlinks {clear:both; float:left; }
+#hyperlinks {clear:left; float:left; }
+#images{float:right;}
 
 table {
-  margin: auto center;
+  margin: auto;
 }
 
 #lists, #images, #tables, #hyperlinks {
@@ -65,7 +65,7 @@ ol, ul, dl {text-align:left;}
 article { min-width:30em; }
 
 footer p {
-  display: inline–block;
+  display: inline-block;
   width:33%;
 }
 

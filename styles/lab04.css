@@ -23,13 +23,18 @@ h2 {
     font-weight: bold; 
 
 }
+
+table{
+    float:right;
+}
 aside, footer { font-style: italic; }  
 h1, h2, h3 {font-family: arial, sans-serif; } 
 th, td, table {
     border: 1px solid black;  
 }
 #images {
-    text-align : center;  /* careful: center has US spelling */
+    text-align : center;
+    float:left;  /* careful: center has US spelling */
     }
 #headings3 {
     color: red;
